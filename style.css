@@ -1,0 +1,84 @@
+/* style.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+header{
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+    background: #4CAF50;
+    color: white;
+}
+
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #4CAF50;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
